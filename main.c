@@ -52,8 +52,8 @@ int main(void)
 	printf("*****STRINGS*****\n");
 	printf("=====================\n");
 	alen = elen = 0;
-	printf("Expected   : %s\n", "holberton");
-	_printf("Actual     : %s\n", "holberton");
+	printf("Expected   : %s\n", "main");
+	_printf("Actual     : %s\n", "main");
 	printf("Expected   : %s$\n", "");
 	_printf("Actual     : %s$\n", "");
 	elen = printf("Expected   : %s\n", str);
@@ -62,10 +62,10 @@ int main(void)
 	alen = _printf("%s\n", "1");
 	printf("Expected   : %i\n", elen);
 	printf("Actual     : %i\n", alen);
-	printf("Expected   : %sschool\n", "holberton");
-	_printf("Actual     : %sschool\n", "holberton");
-	/*elen = printf("Expected: %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "holberton", 0);*/
-	/*alen = _printf("Actual  : %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "holberton",0);*/
+	printf("Expected   : %sschool\n", "main");
+	_printf("Actual     : %sschool\n", "main");
+	/*elen = printf("Expected: %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "main", 0);*/
+	/*alen = _printf("Actual  : %c%%%c%%%%%s%c%s%s\n", INT_MAX, INT_MIN, "hello", 0, "main",0);*/
 	printf("Expected: %d\n", elen);
 	_printf("Actual  : %d\n", alen);
 	printf("Expected   :%%%d\n", len);
