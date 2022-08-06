@@ -15,6 +15,14 @@ int print_octal(va_list o);
 int print_x(va_list x);
 int print_X(va_list X);
 int print_rot13(va_list R);
+int _puts(char *str);
+int print_bigS(va_list l, flags_t *f);
+int print_rev(va_list l, flags_t *f);
+int print_rot13(va_list l, flags_t *f);
+int print_percent(va_list l, flags_t *f);
+int print_address(va_list l, flags_t *f);
+int get_flag(char ch, flags_t *f);
+
 /**
   * struct code_format - Struct format
   *
