@@ -15,6 +15,7 @@ int print_octal(va_list o);
 int print_x(va_list x);
 int print_X(va_list X);
 int print_rot13(va_list R);
+int _puts(char *str);
 /**
   * struct code_format - Struct format
   *
