@@ -24,6 +24,7 @@ int print_address(va_list l, flags_t *f);
 int print_width(const char *format, int *i, va_list list);
 int print_prec(const char *format, int *i, va_list list);
 int print_flags(const char *format, int *i);
+int print_len(const char *format, int *i);
 
 /**
   * struct code_format - Struct format
