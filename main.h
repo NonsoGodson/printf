@@ -21,7 +21,9 @@ int print_rev(va_list l, flags_t *f);
 int print_rot13(va_list l, flags_t *f);
 int print_percent(va_list l, flags_t *f);
 int print_address(va_list l, flags_t *f);
-int get_flag(char ch, flags_t *f);
+int print_width(const char *format, int *i, va_list list);
+int print_prec(const char *format, int *i, va_list list);
+int print_flags(const char *format, int *i);
 
 /**
   * struct code_format - Struct format
