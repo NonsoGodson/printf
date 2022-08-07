@@ -1,27 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/**
- * print_char - writes the character c to stdout
- * @c: The character to print
- *
- * Return: 1.
- */
-int print_char(va_list c)
-{
-	unsigned char my_char;
 
-	my_char = va_arg(c, int);
-	_putchar(my_char);
-	return (1);
-}
 /**
- * print_porcentage - %
- *
- * Return: 1.
+ * print_char - prints a character
+ * @l: va_list arguments from _printf
+ * @f: pointer to the struct flags that determines
+ * if a flag is passed to _printf
+ * Return: number of char printed
  */
-int print_porcentage(void)
+
+int print_char(va_list l, flags_t *f)
 {
-	_putchar('%');
+	(void)f;
+	_putchar(va_arg(l, int));
 	return (1);
 }

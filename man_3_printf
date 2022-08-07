@@ -1,4 +1,4 @@
-.TH man 3 "6th August 2022" "GNU" "_printf man page"
+.TH man 3 "7 August 2022" "GNU" "_printf man page"
 .SH NAME
 .B _printf
 - Formatted output conversion
@@ -57,4 +57,4 @@ _printf("%s, %s %d, %d\\n", weekday, month, day, year);
 .SH SEE ALSO
 .I printf(3)
 .SH AUTHOR
-Nonso Godson Onyedumekwu, Chineze Ogugua
+Nonso Godson Onyedumekwu, Chinabel Ogugua
