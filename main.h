@@ -51,7 +51,6 @@ int (*find_function(const char *format))(va_list)
 int (*get_print(char s))(va_list, flags_t *);
 int print_flag(char s, flags_t *f);
 int print_percent(va_list l, flags_t *f);
-int print_width(const char *format, int *i, va_list list);
-int print_prec(const char *format, int *i, va_list list);
+int print_address(va_list l, flags_t *f)
 
 #endif /* MAIN_H */
