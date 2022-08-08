@@ -51,8 +51,8 @@ int _printf(const char *format, ...);
 /* get_print */
 int (*get_print(char s))(va_list, flags_t *);
 
-/* get_flag */
-int get_flags(const char *format, flags_t *f)
+/* get_flags */
+int get_flags(const char *format, int *i);
 
 /* print_alpha */
 int print_string(va_list l, flags_t *f);
