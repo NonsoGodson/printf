@@ -52,7 +52,7 @@ int _printf(const char *format, ...);
 int (*get_print(char s))(va_list, flags_t *);
 
 /* get_flag */
-int get_flag(char s, flags_t *f);
+int get_flags(const char *format, flags_t *f)
 
 /* print_alpha */
 int print_string(va_list l, flags_t *f);
