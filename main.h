@@ -48,8 +48,9 @@ char *convert(unsigned long int num, int base, int lowercase);
 /* _printf */
 int _printf(const char *format, ...);
 
-/* get_print */
-int (*get_print(char s))(va_list, flags_t *);
+/* handle_print */
+int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
+	int flags, int width, int precision, int size);
 
 /* get_flags */
 int get_flags(const char *format, int *i);
